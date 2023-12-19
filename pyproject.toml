@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rei-comerce"
+version = "0.0.1"
+description = "Ecomerce Project for Store Products"
+authors = ["perymerdeka <ferilukmansyah@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.105.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
